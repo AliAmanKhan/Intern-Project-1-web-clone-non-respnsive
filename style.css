@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+.navbar{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.upnav{
+    background-color: antiquewhite;
+    color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symbol{
+    margin-top: 3vh;
+}
+.logo{
+    height: 8vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.uplogo{
+    display: flex;
+}
+.downlogo{
+    margin-top: -2vh;
+}
+.logo h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+.logo .dot{
+    color: orangered;
+}
+.contacts{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    margin: 2vh;
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+}
+.searchbar input{
+    height: 6vh;
+    background-color: transparent;
+    border: 2px solid black;
+    border-color: transparent transparent black transparent;
+    color: white;
+    font-size: large;
+}
+.searchbar i:hover{
+    color: orangered;
+}
+.search:focus{
+    outline: none;
+    border-color: transparent transparent black transparent;
+}
+.symbol{
+    height: 10vh;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: orangered;
+}
+.desc{
+    height: 10vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-weight: bolder;
+}
+.number{
+    margin: 2vh;
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    margin: 2vh;
+}
+.downnav{
+    height: 10vh;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.downnav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.downnav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-left: 5vw;
+}
+.searchbar{
+    height: 8vh;
+    width: 20vw;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(255, 255, 255,0.6), transparent),url(./images/college-student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.openings{
+    height: 80vh;
+    width: 40vw;
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: orangered;
+}
+.openings h1{
+    font-size: 3rem;
+}
+button{
+    height: 6vh;
+    width: 8vw;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.conbutton{
+    height: 8vh;
+    width: 10vw;
+    font-size: large;
+}
+button:hover{
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: transparent;
+}
+.blocks{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.block{
+    height: 50vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.block .heading{
+    text-align: center;
+}
+.block1{
+    background-color: orangered;
+}
+.block2{
+    background-color: black;
+}
+.block3{
+    background-color: orangered;
+}
+.block4{
+    background-color: black;
+}
+.block-desc{
+    width: 20vw;
+    margin: 2vh;
+    text-align: center;
+}
+.symbol2{
+    font-size: xxx-large;
+    color: white;
+    margin-bottom: 2vh;
+}
+.facilities{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.fac-desc{
+    height: 110vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fac-desc h1{
+    margin: 2vh;
+
+}
+.fac-desc h3{
+    font-weight: lighter;
+    margin-bottom: 2vh;
+}
+.fac-divide{
+    height: 90vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.fac{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+}
+.fac-row{
+    display: flex;
+
+}
+.symbol3{
+    height: 10vh;
+    width: 5vw;
+    background-color: orangered;
+    border-radius: 50%;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbol3 div{
+    color: white;
+    font-size: 2rem;
+}
+.fac-head{
+    width: 20vw;
+    font-size: larger;
+    font-weight: bold;
+}
+.fac-mean{
+    width: 15vw;
+}
+.lib-img{
+    height: 110vh;
+    width: 30vw;
+    background-image: url(./images/library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/students.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+.front{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0,0.6), rgb(255, 69, 0,0.6));
+    position: relative;
+}
+.front-up{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.front-up .front-img{
+    height: 40vh;
+    width: 40vw;
+    margin: 5vh;
+    background-image: url(./images/college-student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uni-desc{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    justify-content: flex-start;
+    color: white;
+}
+.front-down{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unit{
+    height: 30vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.intro-courses{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro-courses h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.intro-courses p{
+    width: 60vw;
+}
+.courses{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.course{
+    height: 100vh;
+    width: 22vw;
+    margin: 2vh;
+}
+.img{
+    height: 45vh;
+    width: 22vw;
+    margin: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    background-image: url(./images/ai-generated.jpg);
+}
+.img2{
+    background-image: url(./images/job.jpg);
+}
+.img3{
+    background-image: url(./images/student-laptop.jpg);
+}
+.img4{
+    background-image: url(./images/software-developer.jpg);
+}
+.crs-attr{
+    display: flex;
+    justify-content: space-between;
+}
+.crs-attr i:hover{
+    color: orangered;
+}
+.intro-teachers{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro-teachers h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.intro-teachers p{
+    width: 60vw;
+}
+.crtfd-teachers{
+    background-color: rgb(233, 233, 233);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teachers{
+    height: 100vh;
+    width: 22vw;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.teachers h1,
+.teachers h4,
+.teachers p{
+    width: 22vw;
+}
+.teachers h4{
+    color: orangered;
+}
+.tchr-img{
+    height: 60vh;
+    width: 22vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2vh;
+}
+.tchr-img1{
+    background-image: url(./images/teacher1.jpg);
+}
+.tchr-img2{
+    background-image: url(./images/teacher2.jpg);
+}
+.tchr-img3{
+    background-image: url(./images/teacher3.jpg);
+}
+.tchr-img4{
+    background-image: url(./images/teacher4.jpg);
+}
+/* contact-form css  */
+.contact-form{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,0.6), rgb(255, 69, 0,0.6)), url(./images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact-form h1, 
+.contact-form p{
+width: 40vw;
+margin-left: 2vw;
+color: white;
+}
+form{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form input, textarea{
+    margin: 0 4vh 4vh 4vh;
+    border: 2px solid;
+    border-color:  transparent transparent white transparent;
+    background-color: transparent;
+}
+::placeholder{
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: large;
+}
+::-ms-input-placeholder{
+    color: white;
+    font-family: 'poppins';
+    font-weight: lighter;
+    font-size: large;
+}
+input,textarea:focus {
+    border: transparent transparent white transparent;
+    outline: 0;
+}
+textarea{
+    width: 40vw;
+}
+.bottom-right{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown{
+    height: 4vh;
+    width: 10vw;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+    left: 40vw;
+}
+.dropdown:hover{
+    height: 20vh;
+}
+.drop{
+    height: 4vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.drop:hover{
+    background-color: orangered;
+    color: white;
+}
+.drop a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+/* contact-form css ends  */
+.intro-blogs,
+.intro-about{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro-blogs h1,
+.intro-about h1{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.intro-blogs p,
+.intro-about p{
+    width: 60vw;
+}
+.blogs{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.blog{
+    height: 80vh;
+    width: 30vw;
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.blog-img{
+    height: 50vh;
+    width: 28vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog1{
+    background-image: url(./images/college-student1.jpg);
+}
+.blog2{
+    background-image: url(./images/college-student2.jpg);
+}
+.blog3{
+    background-image: url(./images/college-student3.jpg);
+}
+.bottom-blog{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.bottom-blog h3{
+    color: orangered;
+}
+.bottom-blog h3:hover{
+    color: black;
+    cursor: pointer;
+}
+.fa-comment-dots:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.tchr-about{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+}
+.bottom-img{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.bottom-img img{
+    height: 50vh;
+    width: 25%;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-up{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.foot{
+    height: 80vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 3vw;
+}
+.space{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.space i:hover{
+    color: orangered;
+}
+.foot-row{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-row p{
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+.foot-row i:hover{
+    color: orangered;
+}
+.foot-col{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+.foot-col i:hover{
+    color: orangered;
+}
+.foot-row-img1{
+    height: 8vh;
+    width: 8vh;
+    background-image: url(./images/college-student1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot-row-img2{
+    height: 8vh;
+    width: 8vh;
+    background-image: url(./images/college-student2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-down{
+    color: white;
+}
+.fa-heart{
+    color: orangered;
+}
+/* @media (max-width: 1200px){
+} */
+@media (max-width:1200px){
+    
+    .slide{
+        background-image: linear-gradient(45deg, rgb(0, 0, 0, 0.6), rgb(255, 255, 255, 0.6)),url(./images/college-student.jpg);
+        justify-content: center;
+        align-items: center;
+        }
+        .openings{
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .bottom-img{
+            height: 40vh;
+        }
+        .bottom-img img{
+            height: 40vh;
+        }
+    .med-1200{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .bottom-img{
+        height: 30vh;
+    }
+    .bottom-img img{
+        height: 30vh;
+    }
+}
+@media only screen and  (max-width:1000px){
+    .blocks{
+        height: 240vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+    }
+    .block{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+    }
+    .symbol2{
+        font-size: 4rem;
+    }
+    .facilities{
+        height: 150vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .fac-desc{
+        height: 150vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .facilities .fac-desc h1{
+        margin: 2vh;
+        font-size: x-large;
+    }
+    .facilities .fac-desc h3{
+        font-weight: lighter;
+        margin-bottom: 2vh;
+        font-size: large;
+    }
+    .fac-divide{
+        height: 140vh;
+        width: 100%;
+    }
+    .fac{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fac-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .symbol3{
+        height: 12vh;
+        width: 10vw;
+    }
+    .symbol3 div{
+        color: white;
+        font-size: 2rem;
+    }
+    .fac-head{
+        width: 50vw;
+        font-size: larger;
+    }
+    .fac-mean{
+        width: 50vw;
+        font-size: large;
+    }
+    .lib-img{
+        height: 0;
+        width: 0;
+        background-image: none;
+    }
+    .fac-desc h1{
+        font-size: 3rem;
+    }
+    .fac-desc h3{
+        font-size: 2rem;
+        text-align: center;
+        margin: 2vh;
+    }
+    .front{
+        height: 240vh;
+    }
+    .front-up{
+        height: 80vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .front-up img{
+        height: 40vh;
+        width: 80vw;
+        margin: 5vh;
+    }
+    .uni-desc{
+        height: 40vh;
+        width: 80vw;
+        font-size: large;
+        text-align: center;
+    }
+    .front-down{
+        height: 120vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .unit{
+        height: 30vh;
+        width: 100%;
+        flex-direction: column;
+        font-size: larger;
+    }
+    .courses{
+        height: 420vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .course{
+        height: 420vh;
+        width: 100%;
+        margin: 2vh;
+        align-items: center;
+    }
+    .img{
+        height: 50vh;
+        width: 80vw;
+        margin: 5vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crs-attr{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .crs-attr p{
+        margin-right: 5vw;
+        margin-left: 1vw;
+        font-size: 2rem;
+    }
+    .crs-attr i{
+        margin-left: 5vw;
+        margin-right: 1vw;
+        font-size: 2rem;
+    }
+    .course h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+}
